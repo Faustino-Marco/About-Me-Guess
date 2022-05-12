@@ -1,3 +1,57 @@
+head {
+
+}
+
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: darkgray;
+  color: black; 
+}
+
+header {
+  padding: 80px;
+  border: 20px dotted black;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+main {
+  padding: 20px;
+  border: 20px;
+  margin:10px;
+}
+
+p {
+  padding: 20px;
+  border: 20px;
+  margin: 10px;
+}
+
+ul {
+  font-size: 24px;
+  list-style:circle;
+  padding: 20px;
+  border: 20px;
+  margin: 10px;
+}
+
+li {
+  padding: 10px;
+  border: 10px solid black;
+  margin: 5px;
+}
+#top-ten {
+  font-size: 30px;
+  padding: 20px;
+  border: 20px solid black;
+  margin: 10px;
+}
 ol {
-  list-style: square;
+  font-size: 20px;
+  list-style: decimal;
+  padding: 50px;
+  margin: 5px;
 }

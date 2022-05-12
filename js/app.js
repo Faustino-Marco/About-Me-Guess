@@ -93,6 +93,9 @@ while (cityGuess !== marcoCities[0] || cityGuess !== marcoCities[1] || cityGuess
     break;
   }
   cityGuess = prompt('Guess one of the cities I\'ve lived in!').toLowerCase();
+  if (cityGuess !== marcoCities[0] || cityGuess === marcoCities[1] || cityGuess === marcoCities[2]) {
+    alert('Not that one, guess again!');
+  }
   if (cityGuess === marcoCities[0] || cityGuess === marcoCities[1] || cityGuess === marcoCities[2]) {
     alert('Wow you guessed one! Great job! I\'ve lived in Seattle, Stuttgart, and Budapest.');
     totalScore++;
@@ -104,28 +107,28 @@ while (cityGuess !== marcoCities[0] || cityGuess !== marcoCities[1] || cityGuess
 alert(`Alright ${namePrompt} that\'s all my questions! You got ${totalScore} of 7 correct! Enjoy checking out my website!`);
 
 
-// // let qCount = 1
+// // // let qCount = 1
 
-// while (userGuess !== correctAnswer){
-//   // alert('That\'s right! You guessed it!');
-// userGuess = prompt('Guess what number I\'m thinking of?');
-// if (userGuess <= correctAnswer) {
-//   userGuess = prompt('Too low! Guess again! What number am I thinking of?');
-//   // qCount++;
-// } else if (userGuess >= correctAnswer) {
-//   userGuess = prompt('Too high! Guess again! What number am I thinking of?');
-//   // qCount++;
-// }
+// // while (userGuess !== correctAnswer){
+// //   // alert('That\'s right! You guessed it!');
+// // userGuess = prompt('Guess what number I\'m thinking of?');
+// // if (userGuess <= correctAnswer) {
+// //   userGuess = prompt('Too low! Guess again! What number am I thinking of?');
+// //   // qCount++;
+// // } else if (userGuess >= correctAnswer) {
+// //   userGuess = prompt('Too high! Guess again! What number am I thinking of?');
+// //   // qCount++;
+// // }
 
-// attempts = 1
-// while (attempts <= 4; attempts++) {
-//   if (userGuess < correctAnswer){
-//     alert('Too low! Guess again!');
-//   } else if (userGuess > correctAnswer) {
-//     alert('Too high! Guess again!');
-//   }
-//   break;
-// }
+// // attempts = 1
+// // while (attempts <= 4; attempts++) {
+// //   if (userGuess < correctAnswer){
+// //     alert('Too low! Guess again!');
+// //   } else if (userGuess > correctAnswer) {
+// //     alert('Too high! Guess again!');
+// //   }
+// //   break;
+// // }
 
-// let score = 0
+// // let score = 0
 
