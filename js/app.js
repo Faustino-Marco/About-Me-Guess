@@ -1,5 +1,5 @@
 'use strict';
-
+function q6(){
 let totalScore = 0;
 let namePrompt = prompt('Hey there! What\'s your name?');
 alert('Great to meet you, ' + namePrompt + '! Welcome to my site!');
@@ -105,8 +105,9 @@ while (cityGuess !== marcoCities[0] || cityGuess !== marcoCities[1] || cityGuess
 }
 
 alert(`Alright ${namePrompt} that\'s all my questions! You got ${totalScore} of 7 correct! Enjoy checking out my website!`);
+}
 
-
+q6();
 // // // let qCount = 1
 
 // // while (userGuess !== correctAnswer){
