@@ -1,3 +1,5 @@
+'use strict';
+
 let greetingQuestion = prompt('Hi I\'m Marco! Welcome to my Guessing Game! Are you having a nice day today?').toLowerCase();
 
 if (greetingQuestion === 'yes' || greetingQuestion === 'y') {
@@ -42,3 +44,6 @@ if (questionFive === 'yes' || questionFive === 'y') {
   console.log('wrong');
   alert('That is incorrect, I love to play golf!');
 }
+
+let namePrompt = prompt('Well anyways, what\'s your name?').toLowerCase();
+alert('Great to meet you, ' + namePrompt + '! Welcome to my site!');
